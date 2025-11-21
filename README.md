@@ -1,15 +1,15 @@
 # Tax Calculator (GCT) Web Application
 
-A simple, interactive Tax Calculator that allows users to add multiple items, input names and prices, and calculate Subtotal, GCT, and Total. 
+A simple, interactive Tax Calculator that allows users to add multiple items, input names and prices, and calculate Subtotal, GCT, and Total. This project demonstrates DOM manipulation, event handling, and basic form validation using  JavaScript.
 
-This project demonstrates DOM manipulation, event handling, and basic form validation using  JavaScript.
-
-![Tax Calculator](./images/without-item.png)
-![Tax Calculator](./images/with-item.png)
+<div style="display: flex; justify-content: space-between; align-items: center">
+  <img src="./images/without-item.png" alt="Pic 1" width="180" height="180" />
+  <img src="./images/with-item.png" alt="Pic 2" width="180" height="180" />
+</div> 
 
 ---
 ## 🚀 Features
-- Add multiple input fields dynamically
+- Add multiple input fields 
 - Remove input fields as needed
 - Input validation
 - Automatic calculation of:

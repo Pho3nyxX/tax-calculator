@@ -3,9 +3,9 @@
 A simple, interactive Tax Calculator that allows users to add multiple items, input names and prices, and calculate Subtotal, GCT, and Total. This project demonstrates DOM manipulation, event handling, and basic form validation using  JavaScript.
 
 <div style="display: flex; justify-content: space-between; align-items: center">
-  <img src="./images/without-item.png" alt="Pic 1" style="width:200px; height:200px;" />
+  <img src="./images/without-item.png" alt="Pic 1" style="width:300px; height:300px;" />
 
-  <img src="./images/with-item.png" alt="Pic 2" style="width:200px; height:200px; object-fit: cover;" />
+  <img src="./images/with-item.png" alt="Pic 2" style="width:300px; height:300px; object-fit: cover;" />
 </div> 
 
 ---

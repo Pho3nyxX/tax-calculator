@@ -4,7 +4,7 @@ A simple, interactive Tax Calculator that allows users to add multiple items, in
 
 <div style="display: flex; justify-content: space-between; align-items: center">
   <img src="./images/without-item.png" alt="Pic 1" width="200" height="200" />
-  <img src="./images/with-item.png" alt="Pic 2" width="200" height="180" />
+  <img src="./images/with-item.png" alt="Pic 2" width="200" height="200" />
 </div> 
 
 ---

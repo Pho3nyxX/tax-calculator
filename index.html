@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tax Calculator</title>
+		<link rel="stylesheet" href="styles/style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="head">
+				<h1>Tax Calculator</h1>
+			</header>
+
+			<form action="" id="form">
+				<main class="content">
+					<div class="content-wrap">
+						<div class="sectionHead">
+							<h3 class="title">Name</h3>
+						</div>
+
+						<div class="sectionHead">
+							<h3 class="title">Price</h3>
+						</div>
+					</div>
+
+					<div class="content-wrap">
+						<div class="sectionHead">
+							<tr>
+								<td>
+									<input
+										type="text"
+										name="userInputName"
+										class="userInputName"
+										placeholder="Place name here..."
+									/>
+									<div class="error1 hide">Must be letters only</div>
+									<div class="error2 hide">Must be 3 characters or more</div>
+								</td>
+							</tr>
+						</div>
+
+						<div class="sectionHead">
+							<tr>
+								<td>
+									<input
+										type="text"
+										name="userInputPrice"
+										class="userInputPrice"
+										placeholder="Place price here..."
+									/>
+									<div class="error hide">Must be number only</div>
+								</td>
+							</tr>
+						</div>
+					</div>
+
+					<div class="btnContainer">
+						<button type="button" id="addUIBtn" class="addAnother">+</button>
+						<button type="button" id="removeUIBtn" class="removeAnother">
+							-
+						</button>
+					</div>
+				</main>
+
+				<footer class="foot">
+					<table class="priceSummaryContainer hide">
+						<tr class="row">
+							<th>Subtotal</th>
+							<td id="subTotalPrice">$0</td>
+						</tr>
+
+						<tr class="row">
+							<th>GCT (16.5%)</th>
+							<td id="gctPrice">$0</td>
+						</tr>
+
+						<tr class="row">
+							<th>Total</th>
+							<td id="totalPrice">$0</td>
+						</tr>
+					</table>
+
+					<div class="footBtnContainer">
+						<button type="button" id="resetUIBtn">Reset</button>
+						<button type="button" id="calculateUIBtn">Calculate</button>
+					</div>
+				</footer>
+			</form>
+
+		</div>
+
+		<script src="scripts/site.js"></script>
+	</body>
+</html>

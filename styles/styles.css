@@ -1,0 +1,132 @@
+body {
+	font-family: sans-serif;
+	background: #f5ebff;
+}
+
+.wrapper {
+	background: #fff;
+	margin: 50px auto 0;
+	max-width: 600px;
+	border: 4px solid #c85bc8;
+	border-radius: 8px;
+
+	.head {
+		padding: 30px;
+		text-align: center;
+		background: #c85bc8;
+
+		h1 {
+			margin: 0;
+		}
+	}
+
+	.content {
+		padding: 30px;
+
+		.content-wrap {
+			display: flex;
+			column-gap: 25px;
+
+			.sectionHead {
+				margin: 0;
+				position: relative;
+				flex-grow: 1;
+
+				.title {
+					text-transform: uppercase;
+					margin-top: 0;
+					margin-bottom: 10px;
+				}
+
+				input[type="text"] {
+					margin-bottom: 10px;
+					width: 100%;
+					border: 1px solid #ccc;
+					padding: 6px;
+					background: #f5ebff;
+					border-radius: 4px;
+					box-sizing: border-box;
+
+					&::placeholder {
+						font-style: italic;
+						color: #a0a0a0;
+					}
+				}
+			}
+		}
+
+		.btnContainer {
+			margin-top: 10px;
+			text-align: right;
+
+			button[type="button"] {
+				font-size: 1.6rem;
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+				background: #c85bc8;
+				text-align: center;
+				border: none;
+				cursor: pointer;
+
+				&:hover {
+					background-color: #c76dc7;
+				}
+			}
+		}
+	}
+
+	.foot {
+		padding: 30px;
+		text-align: center;
+		background: #c85bc8;
+		text-align: right;
+
+		.priceSummaryContainer {
+            width: 100%;
+			margin-bottom: 20px;
+
+			.row {				
+                th{
+                    float: left;
+                    padding: 6px;
+                }
+
+                td{
+                    float: right;
+                    padding: 6px;
+                }
+			}
+		}
+
+		.footBtnContainer {
+			display: flex;
+			justify-content: space-between;
+
+			button[type="button"] {
+				cursor: pointer;
+				padding: 10px 40px;
+				text-transform: uppercase;
+				font-weight: bold;
+				border: none;
+				border-radius: 4px;
+				background: #6e0a6e;
+				color: #fff;
+
+				&:hover {
+					background-color: #7d167d;
+				}
+			}
+		}
+	}
+
+	.error, .error1, .error2{
+		color: #ff0000;
+		font-weight: 800;
+		font-size: 12px;
+	}
+
+    .hide{
+        display: none;
+    }
+}

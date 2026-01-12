@@ -9,7 +9,7 @@ A simple, interactive Tax Calculator that allows users to add multiple items, in
 </div> 
 
 ---
-## 🚀 Features
+## Features
 - Add multiple input fields 
 - Remove input fields as needed
 - Input validation
@@ -21,7 +21,7 @@ A simple, interactive Tax Calculator that allows users to add multiple items, in
 - Error handling for invalid input
 
 ---
-## 🛠️ Tech Stack
+## Tech Stack
 - HTML5
 - CSS3
 - JavaScript   
@@ -29,7 +29,7 @@ A simple, interactive Tax Calculator that allows users to add multiple items, in
 **No external libraries or frameworks are required.**
 
 ---
-## 📂 Project Structure
+## Project Structure
 ```
 ├── index.html 
 ├── scripts
@@ -40,7 +40,7 @@ A simple, interactive Tax Calculator that allows users to add multiple items, in
 ```
 
 ---
-## ✅ How It Works
+## How It Works
 1. User enters an item name and price.   
 2. Additional fields can be added using the Add button.
 3. Fields can be removed using the Remove button.
@@ -51,7 +51,7 @@ A simple, interactive Tax Calculator that allows users to add multiple items, in
 5. Reset clears all fields and returns to the default state.
 
 ---
-## 🧠 Input Validation Rules
+## Input Validation Rules
 
 #### Price Field  
 - Must be numeric
@@ -64,7 +64,7 @@ A simple, interactive Tax Calculator that allows users to add multiple items, in
 
 ---
 
-## ⚡ Getting Started
+## Getting Started
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/tax-calculator.git
